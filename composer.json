@@ -3,6 +3,10 @@
         "silex/silex": "*@dev"
     },
 
+    "require-dev": {
+        "mockery/mockery": "*"
+    },
+
     "autoload": {
         "psr-0": {
             "Demo": "src"
