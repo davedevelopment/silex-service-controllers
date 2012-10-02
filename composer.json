@@ -1,0 +1,11 @@
+{
+    "require": {
+        "silex/silex": "*@dev"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Demo": "src"
+        }
+    }
+}
