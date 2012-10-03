@@ -19,7 +19,7 @@ $app['posts.repository'] = $app->share(function() {
 });
 
 $app['posts.controller'] = $app->share(function() use ($app) {
-    return new PostController($app['posts.repository'], $app);
+    return new PostController($app['posts.repository']);
 });
 
 $app->get('/posts.json', "posts.controller:indexJson");
